@@ -1,0 +1,14 @@
+DAC: s=0.0236 realised 0.01600
+DAC: s=0.03 realised 0.03153
+DAC: s=0.04 realised 0.04753
+DAC: s=0.05 realised 0.04753
+ADC: step 0.04706 (2*12/510 = 0.04706), max |y| 12.0
+reram_wan seed 0: read gain 1.0979  max|prog| 1.1080
+reram_wan seed 1: read gain 1.1189  max|prog| 1.1289
+reram_wan seed 2: read gain 1.1200  max|prog| 1.1297
+pcm seed 0: read gain 0.6613  max|prog| 1.0890
+pcm seed 1: read gain 0.6608  max|prog| 1.1301
+pcm seed 2: read gain 0.6574  max|prog| 1.1032
+reram_cmo seed 0: read gain 0.9998  max|prog| 1.0010
+reram_cmo seed 1: read gain 0.9983  max|prog| 1.0025
+reram_cmo seed 2: read gain 0.9996  max|prog| 1.0014

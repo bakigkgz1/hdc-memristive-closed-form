@@ -1,0 +1,163 @@
+GPU: True
+[parasitic] 8 models x 2 devices x 4 Rp; 0 done, 64 to run -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim_parasitic.jsonl
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 149, in <module>
+    main()
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 131, in main
+    acc = simulate(M, H, y, dev, bound, rp, gpu, seed=0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 57, in simulate
+    core = AnalogCore(M, params=p)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/analog_core.py", line 128, in __init__
+    xp.__init__(self.params.simulation.useGPU, gpu_id)
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/backend/backend.py", line 62, in __init__
+    raise ValueError(
+ValueError: Backend cannot be changed after initialization. Cannot  change use_gpu from False to True
+GPU: True
+[parasitic] 8 models x 2 devices x 4 Rp; 0 done, 64 to run -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim_parasitic.jsonl
+[1/64] isolet D=512 perceptron rram_milo Rp=0 ohm: sim 0.9200 closed form 0.9191 [10.3s, elapsed 0.00 h, ETA 0.2 h]
+[2/64] isolet D=512 perceptron rram_milo Rp=1 ohm: sim 0.8470 closed form 0.9191 [307.3s, elapsed 0.09 h, ETA 2.8 h]
+[3/64] isolet D=512 perceptron rram_milo Rp=2 ohm: sim 0.7905 closed form 0.9191 [422.4s, elapsed 0.21 h, ETA 4.2 h]
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/circuits/array/iarray.py", line 102, in iterative_solve
+    result = self.solve_mvm(
+             ^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/circuits/array/NonInterleaved_InputSource.py", line 116, in solve_mvm
+    raise RuntimeError("Parasitic resistance too high: could not converge!")
+RuntimeError: Parasitic resistance too high: could not converge!
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 62, in simulate
+    out = core @ xp.asarray(H.T)
+          ~~~~~^~~~~~~~~~~~~~~~~
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/analog_core.py", line 1141, in __matmul__
+    return self.matmul(other)
+           ^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/analog_core.py", line 854, in matmul
+    return self.matmat(x)
+           ^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/analog_core.py", line 656, in matmat
+    output = self.cores[0][0].run_xbar_mvm(mcopy, input_range)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/wrapper_core.py", line 133, in run_xbar_mvm
+    output = self._wrapper_run_xbar_mvm()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/balanced_core.py", line 159, in _wrapper_run_xbar_mvm
+    return self.run_xbar_operation(op, vector)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/balanced_core.py", line 206, in run_xbar_operation
+    output_pos = core_pos_operation()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/numeric_core.py", line 221, in run_xbar_mvm
+    return self.run_xbar_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/cores/numeric_core.py", line 247, in run_xbar_operation
+    result = circuit_solver.iterative_solve(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/simulator/circuits/array/iarray.py", line 119, in iterative_solve
+    raise ValueError("Parasitic MVM solver failed to converge") from err
+ValueError: Parasitic MVM solver failed to converge
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 156, in <module>
+    main()
+  File "/content/drive/MyDrive/hdc_memristive/code_parasitic/sweep_crosssim_parasitic.py", line 137, in main
+    acc = sim_pool.submit(simulate, M, H, y, dev, bound, rp, gpu, 0).result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: Parasitic MVM solver failed to converge
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.10362
+Reduced MVM convergence parameter to: 0.10362
+Reduced MVM convergence parameter to: 0.10362
+Reduced MVM convergence parameter to: 0.10362
+GPU: True
+[parasitic] 4 models x 2 devices x 4 Rp; 3 done, 29 to run -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim_parasitic.jsonl
+[1/29] isolet D=512 perceptron rram_milo Rp=0.5 ohm: sim 0.8755 closed form 0.9191 [183.3s, elapsed 0.05 h, ETA 1.4 h]
+[2/29] isolet D=512 perceptron pcm_joshi Rp=0 ohm: sim 0.9190 closed form 0.9195 [0.3s, elapsed 0.05 h, ETA 0.7 h]
+[3/29] isolet D=512 perceptron pcm_joshi Rp=0.5 ohm: sim 0.9150 closed form 0.9195 [0.2s, elapsed 0.05 h, ETA 0.4 h]
+[4/29] isolet D=512 perceptron pcm_joshi Rp=1 ohm: sim 0.9100 closed form 0.9195 [0.3s, elapsed 0.05 h, ETA 0.3 h]
+[5/29] isolet D=512 perceptron pcm_joshi Rp=2 ohm: sim 0.9105 closed form 0.9195 [1.4s, elapsed 0.05 h, ETA 0.3 h]
+[6/29] isolet D=512 largemargin rram_milo Rp=0 ohm: sim 0.9365 closed form 0.9352 [0.0s, elapsed 0.05 h, ETA 0.2 h]
+[7/29] isolet D=512 largemargin rram_milo Rp=0.5 ohm: sim 0.9170 closed form 0.9352 [171.9s, elapsed 0.10 h, ETA 0.3 h]
+[8/29] isolet D=512 largemargin rram_milo Rp=1 ohm: sim 0.8800 closed form 0.9352 [288.4s, elapsed 0.18 h, ETA 0.5 h]
+[9/29] isolet D=512 largemargin rram_milo Rp=2 ohm: sim 0.8155 closed form 0.9352 [410.7s, elapsed 0.29 h, ETA 0.7 h]
+[10/29] isolet D=512 largemargin pcm_joshi Rp=0 ohm: sim 0.9375 closed form 0.9355 [0.0s, elapsed 0.29 h, ETA 0.6 h]
+[11/29] isolet D=512 largemargin pcm_joshi Rp=0.5 ohm: sim 0.9390 closed form 0.9355 [0.2s, elapsed 0.29 h, ETA 0.5 h]
+[12/29] isolet D=512 largemargin pcm_joshi Rp=1 ohm: sim 0.9380 closed form 0.9355 [0.3s, elapsed 0.29 h, ETA 0.4 h]
+[13/29] isolet D=512 largemargin pcm_joshi Rp=2 ohm: sim 0.9360 closed form 0.9355 [0.8s, elapsed 0.30 h, ETA 0.4 h]
+[14/29] ucihar D=512 perceptron rram_milo Rp=0 ohm: sim 0.9435 closed form 0.9406 [0.0s, elapsed 0.30 h, ETA 0.3 h]
+[15/29] ucihar D=512 perceptron rram_milo Rp=0.5 ohm: sim 0.8900 closed form 0.9406 [84.8s, elapsed 0.32 h, ETA 0.3 h]
+[16/29] ucihar D=512 perceptron rram_milo Rp=1 ohm: sim 0.8615 closed form 0.9406 [138.3s, elapsed 0.36 h, ETA 0.3 h]
+[17/29] ucihar D=512 perceptron rram_milo Rp=2 ohm: sim 0.8175 closed form 0.9406 [195.9s, elapsed 0.41 h, ETA 0.3 h]
+[18/29] ucihar D=512 perceptron pcm_joshi Rp=0 ohm: sim 0.9370 closed form 0.9411 [0.0s, elapsed 0.41 h, ETA 0.3 h]
+[19/29] ucihar D=512 perceptron pcm_joshi Rp=0.5 ohm: sim 0.9370 closed form 0.9411 [0.1s, elapsed 0.41 h, ETA 0.2 h]
+[20/29] ucihar D=512 perceptron pcm_joshi Rp=1 ohm: sim 0.9335 closed form 0.9411 [0.2s, elapsed 0.41 h, ETA 0.2 h]
+[21/29] ucihar D=512 perceptron pcm_joshi Rp=2 ohm: sim 0.9315 closed form 0.9411 [0.7s, elapsed 0.41 h, ETA 0.2 h]
+[22/29] ucihar D=512 largemargin rram_milo Rp=0 ohm: sim 0.9425 closed form 0.9434 [0.0s, elapsed 0.41 h, ETA 0.1 h]
+[23/29] ucihar D=512 largemargin rram_milo Rp=0.5 ohm: sim 0.9045 closed form 0.9434 [79.3s, elapsed 0.44 h, ETA 0.1 h]
+[24/29] ucihar D=512 largemargin rram_milo Rp=1 ohm: sim 0.8695 closed form 0.9434 [132.0s, elapsed 0.47 h, ETA 0.1 h]
+[25/29] ucihar D=512 largemargin rram_milo Rp=2 ohm: sim 0.8195 closed form 0.9434 [189.8s, elapsed 0.52 h, ETA 0.1 h]
+[26/29] ucihar D=512 largemargin pcm_joshi Rp=0 ohm: sim 0.9415 closed form 0.9437 [0.0s, elapsed 0.52 h, ETA 0.1 h]
+[27/29] ucihar D=512 largemargin pcm_joshi Rp=0.5 ohm: sim 0.9415 closed form 0.9437 [0.1s, elapsed 0.52 h, ETA 0.0 h]
+[28/29] ucihar D=512 largemargin pcm_joshi Rp=1 ohm: sim 0.9395 closed form 0.9437 [0.1s, elapsed 0.53 h, ETA 0.0 h]
+[29/29] ucihar D=512 largemargin pcm_joshi Rp=2 ohm: sim 0.9350 closed form 0.9437 [0.3s, elapsed 0.53 h, ETA 0.0 h]
+Reduced MVM convergence parameter to: 0.35534
+Reduced MVM convergence parameter to: 0.35534
+Reduced MVM convergence parameter to: 0.36259
+Reduced MVM convergence parameter to: 0.35534
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.20594
+Reduced MVM convergence parameter to: 0.20594
+Reduced MVM convergence parameter to: 0.20594
+Reduced MVM convergence parameter to: 0.20594
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.36259
+Reduced MVM convergence parameter to: 0.34823
+Reduced MVM convergence parameter to: 0.36259
+Reduced MVM convergence parameter to: 0.34823
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.19383
+Reduced MVM convergence parameter to: 0.19779
+Reduced MVM convergence parameter to: 0.19383
+Reduced MVM convergence parameter to: 0.10573
+Reduced MVM convergence parameter to: 0.10155
+Reduced MVM convergence parameter to: 0.10362
+Reduced MVM convergence parameter to: 0.10155
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.37754
+Reduced MVM convergence parameter to: 0.21015
+Reduced MVM convergence parameter to: 0.21015
+Reduced MVM convergence parameter to: 0.21015
+Reduced MVM convergence parameter to: 0.21015
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+Reduced MVM convergence parameter to: 0.11009
+done

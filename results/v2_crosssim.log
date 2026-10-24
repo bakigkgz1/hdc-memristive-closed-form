@@ -1,0 +1,263 @@
+[crosssim] 126 jobs, 0 done, running 126 on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim.jsonl
+FAILED isolet rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=8192 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=8192 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=8192 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=2048 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=2048 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=2048 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED isolet nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED ucihar nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED mnist nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED fmnist nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED letter nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED pendigits nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage rp D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=512 seed=0: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=512 seed=1: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+FAILED satimage nonlinear D=512 seed=2: BrokenProcessPool('A process in the process pool was terminated abruptly while the future was running or pending.')
+done; records whose digital accuracy did not reproduce: 0
+[crosssim] 126 jobs, 0 done, running 126 on 12 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim.jsonl
+RAM 167 GB -> 12 workers
+probe ok: isolet D=512 in 34s
+[2/126] ucihar rp D=8192 seed=0: 120 records, models reproduced 64/120 [6287.5s, elapsed 1.8 h, ETA 108.9 h]
+[3/126] ucihar rp D=8192 seed=2: 120 records, models reproduced 112/120 [6293.2s, elapsed 1.8 h, ETA 72.1 h]
+[4/126] ucihar nonlinear D=8192 seed=1: 120 records, models reproduced 40/120 [6297.9s, elapsed 1.8 h, ETA 53.6 h]
+[5/126] ucihar rp D=8192 seed=1: 120 records, models reproduced 120/120 [6298.2s, elapsed 1.8 h, ETA 42.6 h]
+[6/126] ucihar nonlinear D=8192 seed=0: 120 records, models reproduced 72/120 [6312.4s, elapsed 1.8 h, ETA 35.3 h]
+[7/126] ucihar nonlinear D=8192 seed=2: 120 records, models reproduced 96/120 [6323.0s, elapsed 1.8 h, ETA 30.0 h]
+[8/126] isolet nonlinear D=8192 seed=0: 120 records, models reproduced 72/120 [6381.5s, elapsed 1.8 h, ETA 26.3 h]
+[9/126] isolet nonlinear D=8192 seed=2: 120 records, models reproduced 72/120 [6382.3s, elapsed 1.8 h, ETA 23.2 h]
+[10/126] isolet rp D=8192 seed=2: 120 records, models reproduced 56/120 [6383.2s, elapsed 1.8 h, ETA 20.7 h]
+[11/126] isolet rp D=8192 seed=1: 120 records, models reproduced 120/120 [6383.5s, elapsed 1.8 h, ETA 18.6 h]
+[12/126] isolet rp D=8192 seed=0: 120 records, models reproduced 96/120 [6394.3s, elapsed 1.8 h, ETA 17.0 h]
+[13/126] isolet nonlinear D=8192 seed=1: 120 records, models reproduced 24/120 [6395.0s, elapsed 1.8 h, ETA 15.5 h]
+[crosssim] 126 jobs, 13 done, running 113 on 12 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim.jsonl
+RAM 167 GB -> 12 workers
+probe ok: isolet D=512 in 301s
+a worker process died (most likely out of memory); retrying 112 jobs with 6 workers
+[crosssim] 126 jobs, 14 done, running 112 on 12 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_crosssim.jsonl
+RAM 167 GB -> 12 workers
+probe ok: isolet D=512 in 57s
+a worker process died (most likely out of memory); retrying 111 jobs with 6 workers
+[2/112] mnist nonlinear D=8192 seed=0: 120 records, models reproduced 24/120 [2729.5s, elapsed 1.9 h, ETA 104.4 h]
+[3/112] mnist nonlinear D=8192 seed=2: 120 records, models reproduced 16/120 [2733.7s, elapsed 1.9 h, ETA 69.0 h]
+[4/112] mnist rp D=8192 seed=0: 120 records, models reproduced 24/120 [2736.6s, elapsed 1.9 h, ETA 51.3 h]
+[5/112] mnist rp D=8192 seed=1: 120 records, models reproduced 24/120 [2737.0s, elapsed 1.9 h, ETA 40.7 h]
+[6/112] mnist nonlinear D=8192 seed=1: 120 records, models reproduced 32/120 [2768.3s, elapsed 1.9 h, ETA 33.7 h]
+[7/112] mnist rp D=8192 seed=2: 120 records, models reproduced 24/120 [2815.8s, elapsed 1.9 h, ETA 28.8 h]
+[8/112] fmnist rp D=8192 seed=2: 120 records, models reproduced 24/120 [2722.4s, elapsed 2.7 h, ETA 34.5 h]
+[9/112] fmnist rp D=8192 seed=0: 120 records, models reproduced 40/120 [2741.1s, elapsed 2.7 h, ETA 30.5 h]
+[10/112] fmnist rp D=8192 seed=1: 120 records, models reproduced 32/120 [2751.4s, elapsed 2.7 h, ETA 27.2 h]
+[11/112] fmnist nonlinear D=8192 seed=1: 120 records, models reproduced 24/120 [2753.4s, elapsed 2.7 h, ETA 24.6 h]
+[12/112] fmnist nonlinear D=8192 seed=0: 120 records, models reproduced 16/120 [2797.1s, elapsed 2.7 h, ETA 22.3 h]
+[13/112] fmnist nonlinear D=8192 seed=2: 120 records, models reproduced 32/120 [2833.6s, elapsed 2.7 h, ETA 20.6 h]
+[14/112] letter rp D=8192 seed=1: 120 records, models reproduced 120/120 [1244.7s, elapsed 3.0 h, ETA 21.0 h]
+[15/112] letter rp D=8192 seed=2: 120 records, models reproduced 120/120 [1234.7s, elapsed 3.0 h, ETA 19.4 h]
+[16/112] letter rp D=8192 seed=0: 120 records, models reproduced 120/120 [1242.4s, elapsed 3.0 h, ETA 18.0 h]
+[17/112] letter nonlinear D=8192 seed=0: 120 records, models reproduced 120/120 [1242.8s, elapsed 3.0 h, ETA 16.9 h]
+[18/112] letter nonlinear D=8192 seed=1: 120 records, models reproduced 120/120 [1244.7s, elapsed 3.0 h, ETA 15.8 h]
+[19/112] letter nonlinear D=8192 seed=2: 120 records, models reproduced 120/120 [1369.5s, elapsed 3.1 h, ETA 15.1 h]
+[20/112] pendigits rp D=8192 seed=1: 120 records, models reproduced 120/120 [576.1s, elapsed 3.2 h, ETA 14.6 h]
+[21/112] pendigits nonlinear D=8192 seed=0: 120 records, models reproduced 120/120 [591.1s, elapsed 3.2 h, ETA 13.8 h]
+[22/112] pendigits rp D=8192 seed=2: 120 records, models reproduced 120/120 [652.9s, elapsed 3.2 h, ETA 13.0 h]
+[23/112] pendigits rp D=8192 seed=0: 120 records, models reproduced 120/120 [695.4s, elapsed 3.2 h, ETA 12.4 h]
+[24/112] pendigits nonlinear D=8192 seed=1: 120 records, models reproduced 120/120 [694.7s, elapsed 3.2 h, ETA 11.8 h]
+[25/112] satimage rp D=8192 seed=0: 120 records, models reproduced 120/120 [315.9s, elapsed 3.3 h, ETA 11.3 h]
+[26/112] pendigits nonlinear D=8192 seed=2: 120 records, models reproduced 120/120 [589.4s, elapsed 3.3 h, ETA 10.8 h]
+[27/112] satimage rp D=8192 seed=2: 120 records, models reproduced 120/120 [278.0s, elapsed 3.3 h, ETA 10.3 h]
+[28/112] satimage nonlinear D=8192 seed=1: 120 records, models reproduced 120/120 [316.2s, elapsed 3.3 h, ETA 9.8 h]
+[29/112] satimage rp D=8192 seed=1: 120 records, models reproduced 96/120 [349.2s, elapsed 3.3 h, ETA 9.4 h]
+[30/112] isolet rp D=2048 seed=0: 120 records, models reproduced 80/120 [117.9s, elapsed 3.3 h, ETA 9.0 h]
+[31/112] isolet rp D=2048 seed=1: 120 records, models reproduced 72/120 [115.0s, elapsed 3.3 h, ETA 8.6 h]
+[32/112] satimage nonlinear D=8192 seed=2: 120 records, models reproduced 120/120 [331.2s, elapsed 3.3 h, ETA 8.3 h]
+[33/112] isolet rp D=2048 seed=2: 120 records, models reproduced 80/120 [113.7s, elapsed 3.3 h, ETA 7.9 h]
+[34/112] isolet nonlinear D=2048 seed=0: 120 records, models reproduced 48/120 [125.9s, elapsed 3.3 h, ETA 7.6 h]
+[35/112] isolet nonlinear D=2048 seed=1: 120 records, models reproduced 48/120 [119.4s, elapsed 3.3 h, ETA 7.3 h]
+[36/112] isolet nonlinear D=2048 seed=2: 120 records, models reproduced 96/120 [113.8s, elapsed 3.3 h, ETA 7.0 h]
+[37/112] satimage nonlinear D=8192 seed=0: 120 records, models reproduced 120/120 [303.7s, elapsed 3.3 h, ETA 6.8 h]
+[38/112] ucihar rp D=2048 seed=0: 120 records, models reproduced 120/120 [130.5s, elapsed 3.3 h, ETA 6.5 h]
+[39/112] ucihar rp D=2048 seed=1: 120 records, models reproduced 120/120 [116.8s, elapsed 3.3 h, ETA 6.3 h]
+[40/112] ucihar rp D=2048 seed=2: 120 records, models reproduced 24/120 [126.2s, elapsed 3.4 h, ETA 6.0 h]
+[41/112] ucihar nonlinear D=2048 seed=0: 120 records, models reproduced 24/120 [130.4s, elapsed 3.4 h, ETA 5.8 h]
+[42/112] ucihar nonlinear D=2048 seed=1: 120 records, models reproduced 56/120 [125.3s, elapsed 3.4 h, ETA 5.6 h]
+[43/112] ucihar nonlinear D=2048 seed=2: 120 records, models reproduced 24/120 [148.9s, elapsed 3.4 h, ETA 5.4 h]
+[44/112] mnist rp D=2048 seed=0: 120 records, models reproduced 24/120 [628.3s, elapsed 3.5 h, ETA 5.4 h]
+[45/112] mnist rp D=2048 seed=1: 120 records, models reproduced 40/120 [644.6s, elapsed 3.5 h, ETA 5.3 h]
+[46/112] mnist nonlinear D=2048 seed=0: 120 records, models reproduced 24/120 [614.7s, elapsed 3.5 h, ETA 5.1 h]
+[47/112] mnist rp D=2048 seed=2: 120 records, models reproduced 32/120 [623.2s, elapsed 3.5 h, ETA 4.9 h]
+[48/112] mnist nonlinear D=2048 seed=1: 120 records, models reproduced 24/120 [622.5s, elapsed 3.5 h, ETA 4.7 h]
+[49/112] mnist nonlinear D=2048 seed=2: 120 records, models reproduced 32/120 [602.8s, elapsed 3.5 h, ETA 4.6 h]
+[50/112] fmnist rp D=2048 seed=0: 120 records, models reproduced 16/120 [573.2s, elapsed 3.7 h, ETA 4.6 h]
+[51/112] fmnist nonlinear D=2048 seed=0: 120 records, models reproduced 24/120 [600.5s, elapsed 3.7 h, ETA 4.4 h]
+[52/112] fmnist nonlinear D=2048 seed=1: 120 records, models reproduced 32/120 [591.5s, elapsed 3.7 h, ETA 4.3 h]
+[53/112] fmnist rp D=2048 seed=2: 120 records, models reproduced 24/120 [662.7s, elapsed 3.7 h, ETA 4.1 h]
+[54/112] fmnist nonlinear D=2048 seed=2: 120 records, models reproduced 24/120 [610.8s, elapsed 3.7 h, ETA 4.0 h]
+[55/112] fmnist rp D=2048 seed=1: 120 records, models reproduced 24/120 [784.5s, elapsed 3.7 h, ETA 3.9 h]
+[56/112] letter rp D=2048 seed=0: 120 records, models reproduced 120/120 [309.2s, elapsed 3.8 h, ETA 3.8 h]
+[57/112] letter rp D=2048 seed=1: 120 records, models reproduced 120/120 [274.1s, elapsed 3.8 h, ETA 3.6 h]
+[58/112] letter nonlinear D=2048 seed=1: 120 records, models reproduced 120/120 [293.6s, elapsed 3.8 h, ETA 3.5 h]
+[59/112] letter nonlinear D=2048 seed=0: 120 records, models reproduced 120/120 [314.0s, elapsed 3.8 h, ETA 3.4 h]
+[60/112] pendigits rp D=2048 seed=0: 120 records, models reproduced 120/120 [138.7s, elapsed 3.8 h, ETA 3.3 h]
+[61/112] letter rp D=2048 seed=2: 120 records, models reproduced 120/120 [372.4s, elapsed 3.8 h, ETA 3.2 h]
+[62/112] pendigits rp D=2048 seed=1: 120 records, models reproduced 120/120 [127.4s, elapsed 3.8 h, ETA 3.1 h]
+[63/112] satimage rp D=2048 seed=0: 120 records, models reproduced 120/120 [70.4s, elapsed 3.8 h, ETA 3.0 h]
+[64/112] pendigits nonlinear D=2048 seed=2: 120 records, models reproduced 120/120 [122.5s, elapsed 3.8 h, ETA 2.9 h]
+[65/112] letter nonlinear D=2048 seed=2: 120 records, models reproduced 120/120 [346.1s, elapsed 3.8 h, ETA 2.8 h]
+[66/112] pendigits nonlinear D=2048 seed=1: 120 records, models reproduced 120/120 [161.5s, elapsed 3.8 h, ETA 2.7 h]
+[67/112] satimage rp D=2048 seed=1: 120 records, models reproduced 120/120 [70.7s, elapsed 3.8 h, ETA 2.6 h]
+[68/112] pendigits nonlinear D=2048 seed=0: 120 records, models reproduced 120/120 [170.4s, elapsed 3.8 h, ETA 2.5 h]
+[69/112] pendigits rp D=2048 seed=2: 120 records, models reproduced 120/120 [183.4s, elapsed 3.8 h, ETA 2.4 h]
+[70/112] isolet nonlinear D=512 seed=0: 120 records, models reproduced 120/120 [34.1s, elapsed 3.9 h, ETA 2.3 h]
+[71/112] isolet nonlinear D=512 seed=1: 120 records, models reproduced 120/120 [34.1s, elapsed 3.9 h, ETA 2.2 h]
+[72/112] satimage rp D=2048 seed=2: 120 records, models reproduced 120/120 [71.5s, elapsed 3.9 h, ETA 2.1 h]
+[73/112] satimage nonlinear D=2048 seed=0: 120 records, models reproduced 120/120 [70.1s, elapsed 3.9 h, ETA 2.1 h]
+[74/112] satimage nonlinear D=2048 seed=1: 120 records, models reproduced 120/120 [71.3s, elapsed 3.9 h, ETA 2.0 h]
+[75/112] isolet nonlinear D=512 seed=2: 120 records, models reproduced 120/120 [34.1s, elapsed 3.9 h, ETA 1.9 h]
+[76/112] satimage nonlinear D=2048 seed=2: 120 records, models reproduced 120/120 [71.3s, elapsed 3.9 h, ETA 1.8 h]
+[77/112] ucihar rp D=512 seed=0: 120 records, models reproduced 120/120 [31.9s, elapsed 3.9 h, ETA 1.8 h]
+[78/112] ucihar rp D=512 seed=1: 120 records, models reproduced 120/120 [33.8s, elapsed 3.9 h, ETA 1.7 h]
+[79/112] ucihar nonlinear D=512 seed=0: 120 records, models reproduced 120/120 [32.7s, elapsed 3.9 h, ETA 1.6 h]
+[80/112] ucihar rp D=512 seed=2: 120 records, models reproduced 96/120 [48.6s, elapsed 3.9 h, ETA 1.5 h]
+[81/112] ucihar nonlinear D=512 seed=1: 120 records, models reproduced 120/120 [34.1s, elapsed 3.9 h, ETA 1.5 h]
+[82/112] ucihar nonlinear D=512 seed=2: 120 records, models reproduced 120/120 [31.2s, elapsed 3.9 h, ETA 1.4 h]
+[83/112] mnist rp D=512 seed=0: 120 records, models reproduced 24/120 [159.8s, elapsed 3.9 h, ETA 1.4 h]
+[84/112] mnist nonlinear D=512 seed=2: 120 records, models reproduced 24/120 [153.0s, elapsed 3.9 h, ETA 1.3 h]
+[85/112] mnist rp D=512 seed=2: 120 records, models reproduced 24/120 [187.3s, elapsed 3.9 h, ETA 1.2 h]
+[86/112] mnist nonlinear D=512 seed=0: 120 records, models reproduced 24/120 [187.0s, elapsed 3.9 h, ETA 1.2 h]
+[87/112] mnist rp D=512 seed=1: 120 records, models reproduced 96/120 [207.5s, elapsed 3.9 h, ETA 1.1 h]
+[88/112] mnist nonlinear D=512 seed=1: 120 records, models reproduced 24/120 [193.7s, elapsed 3.9 h, ETA 1.1 h]
+[89/112] fmnist rp D=512 seed=0: 120 records, models reproduced 72/120 [163.5s, elapsed 4.0 h, ETA 1.0 h]
+[90/112] fmnist rp D=512 seed=1: 120 records, models reproduced 96/120 [150.4s, elapsed 4.0 h, ETA 1.0 h]
+[91/112] fmnist nonlinear D=512 seed=2: 120 records, models reproduced 32/120 [164.4s, elapsed 4.0 h, ETA 0.9 h]
+[92/112] fmnist rp D=512 seed=2: 120 records, models reproduced 96/120 [188.2s, elapsed 4.0 h, ETA 0.9 h]
+[93/112] letter rp D=512 seed=1: 120 records, models reproduced 120/120 [69.8s, elapsed 4.0 h, ETA 0.8 h]
+[94/112] fmnist nonlinear D=512 seed=1: 120 records, models reproduced 32/120 [187.2s, elapsed 4.0 h, ETA 0.8 h]
+[95/112] fmnist nonlinear D=512 seed=0: 120 records, models reproduced 32/120 [197.3s, elapsed 4.0 h, ETA 0.7 h]
+[96/112] letter rp D=512 seed=0: 120 records, models reproduced 96/120 [84.0s, elapsed 4.0 h, ETA 0.7 h]
+[97/112] pendigits rp D=512 seed=1: 120 records, models reproduced 120/120 [31.2s, elapsed 4.0 h, ETA 0.6 h]
+[98/112] pendigits rp D=512 seed=0: 120 records, models reproduced 120/120 [36.9s, elapsed 4.0 h, ETA 0.6 h]
+[99/112] letter rp D=512 seed=2: 120 records, models reproduced 120/120 [81.7s, elapsed 4.0 h, ETA 0.5 h]
+[100/112] letter nonlinear D=512 seed=1: 120 records, models reproduced 96/120 [70.0s, elapsed 4.0 h, ETA 0.5 h]
+[101/112] pendigits rp D=512 seed=2: 120 records, models reproduced 120/120 [32.1s, elapsed 4.0 h, ETA 0.4 h]
+[102/112] pendigits nonlinear D=512 seed=0: 120 records, models reproduced 120/120 [37.9s, elapsed 4.0 h, ETA 0.4 h]
+[103/112] letter nonlinear D=512 seed=0: 120 records, models reproduced 96/120 [89.7s, elapsed 4.0 h, ETA 0.3 h]
+[104/112] letter nonlinear D=512 seed=2: 120 records, models reproduced 120/120 [92.6s, elapsed 4.0 h, ETA 0.3 h]
+[105/112] satimage rp D=512 seed=0: 120 records, models reproduced 120/120 [21.0s, elapsed 4.0 h, ETA 0.3 h]
+[106/112] pendigits nonlinear D=512 seed=2: 120 records, models reproduced 120/120 [32.3s, elapsed 4.0 h, ETA 0.2 h]
+[107/112] satimage rp D=512 seed=1: 120 records, models reproduced 120/120 [21.3s, elapsed 4.0 h, ETA 0.2 h]
+[108/112] satimage rp D=512 seed=2: 120 records, models reproduced 120/120 [21.2s, elapsed 4.0 h, ETA 0.1 h]
+[109/112] satimage nonlinear D=512 seed=0: 120 records, models reproduced 120/120 [22.0s, elapsed 4.0 h, ETA 0.1 h]
+[110/112] satimage nonlinear D=512 seed=1: 120 records, models reproduced 120/120 [20.9s, elapsed 4.0 h, ETA 0.1 h]
+[111/112] pendigits nonlinear D=512 seed=1: 120 records, models reproduced 120/120 [50.5s, elapsed 4.0 h, ETA 0.0 h]
+[112/112] satimage nonlinear D=512 seed=2: 120 records, models reproduced 120/120 [20.0s, elapsed 4.0 h, ETA 0.0 h]
+done; records whose digital accuracy did not reproduce: 3880

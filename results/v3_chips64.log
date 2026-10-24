@@ -1,0 +1,113 @@
+Traceback (most recent call last):
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 80, in wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 580, in _load_arff_response
+    X, y, frame, categories = _open_url_and_load_gzip_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 568, in _open_url_and_load_gzip_file
+    return load_arff_from_gzip_file(gzip_file, **arff_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 533, in load_arff_from_gzip_file
+    return _pandas_arff_parser(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 447, in _pandas_arff_parser
+    frame[col] = frame[col].cat.rename_categories(strip_single_quotes)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/accessor.py", line 128, in f
+    return self._delegate_method(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 3253, in _delegate_method
+    res = method(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 1431, in rename_categories
+    new_categories = [new_categories(item) for item in self.categories]
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 435, in strip_single_quotes
+    match = re.search(single_quote_pattern, input_string)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_chips64/sweep_revision.py", line 318, in <module>
+    main()
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_chips64/sweep_revision.py", line 285, in main
+    load_dataset(d, a.data_home)
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_chips64/hdc.py", line 118, in load_dataset
+    X, y = fetch_openml(oname, version=ver, return_X_y=True, as_frame=False,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 1161, in fetch_openml
+    bunch = _download_data_to_bunch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 715, in _download_data_to_bunch
+    X, y, frame, categories = _retry_with_clean_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 100, in wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 580, in _load_arff_response
+    X, y, frame, categories = _open_url_and_load_gzip_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 568, in _open_url_and_load_gzip_file
+    return load_arff_from_gzip_file(gzip_file, **arff_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 533, in load_arff_from_gzip_file
+    return _pandas_arff_parser(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 447, in _pandas_arff_parser
+    frame[col] = frame[col].cat.rename_categories(strip_single_quotes)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/accessor.py", line 128, in f
+    return self._delegate_method(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 3253, in _delegate_method
+    res = method(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 1431, in rename_categories
+    new_categories = [new_categories(item) for item in self.categories]
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 435, in strip_single_quotes
+    match = re.search(single_quote_pattern, input_string)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'int'
+[chips64] 28 jobs to run (0 done) on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v3_chips64.jsonl
+[1/28] ucihar rp D=512 seed=0: MAE v1 0.324 v2 0.025 pp; [55.0s, elapsed 0.02 h, ETA 0.42 h]
+[2/28] ucihar nonlinear D=512 seed=0: MAE v1 0.100 v2 0.045 pp; [56.2s, elapsed 0.02 h, ETA 0.21 h]
+[3/28] isolet rp D=512 seed=0: MAE v1 0.128 v2 0.049 pp; [83.8s, elapsed 0.02 h, ETA 0.20 h]
+[4/28] isolet nonlinear D=512 seed=0: MAE v1 1.315 v2 0.087 pp; [87.4s, elapsed 0.02 h, ETA 0.15 h]
+[5/28] ucihar rp D=2048 seed=0: MAE v1 0.022 v2 0.020 pp; [174.8s, elapsed 0.05 h, ETA 0.22 h]
+[6/28] ucihar nonlinear D=2048 seed=0: MAE v1 0.070 v2 0.030 pp; [176.3s, elapsed 0.05 h, ETA 0.18 h]
+[7/28] mnist rp D=512 seed=0: MAE v1 0.048 v2 0.028 pp; [200.3s, elapsed 0.07 h, ETA 0.21 h]
+[8/28] isolet rp D=2048 seed=0: MAE v1 0.024 v2 0.026 pp; [270.7s, elapsed 0.08 h, ETA 0.19 h]
+[9/28] isolet nonlinear D=2048 seed=0: MAE v1 0.937 v2 0.054 pp; [292.5s, elapsed 0.08 h, ETA 0.17 h]
+[10/28] mnist nonlinear D=512 seed=0: MAE v1 0.881 v2 0.058 pp; [205.3s, elapsed 0.08 h, ETA 0.15 h]
+[11/28] fmnist rp D=512 seed=0: MAE v1 0.100 v2 0.087 pp; [211.2s, elapsed 0.11 h, ETA 0.17 h]
+[12/28] letter rp D=512 seed=0: MAE v1 0.106 v2 0.054 pp; [158.7s, elapsed 0.13 h, ETA 0.17 h]
+[13/28] fmnist nonlinear D=512 seed=0: MAE v1 1.396 v2 0.096 pp; [217.3s, elapsed 0.14 h, ETA 0.16 h]
+[14/28] letter nonlinear D=512 seed=0: MAE v1 0.097 v2 0.117 pp; [152.9s, elapsed 0.17 h, ETA 0.17 h]
+[15/28] pendigits rp D=512 seed=0: MAE v1 0.045 v2 0.031 pp; [62.7s, elapsed 0.19 h, ETA 0.16 h]
+[16/28] pendigits rp D=2048 seed=0: MAE v1 0.015 v2 0.012 pp; [210.0s, elapsed 0.19 h, ETA 0.15 h]
+[17/28] mnist rp D=2048 seed=0: MAE v1 0.021 v2 0.022 pp; [663.6s, elapsed 0.20 h, ETA 0.13 h]
+[18/28] mnist nonlinear D=2048 seed=0: MAE v1 0.140 v2 0.041 pp; [668.5s, elapsed 0.21 h, ETA 0.12 h]
+[19/28] pendigits nonlinear D=512 seed=0: MAE v1 0.042 v2 0.021 pp; [61.2s, elapsed 0.21 h, ETA 0.10 h]
+[20/28] letter rp D=2048 seed=0: MAE v1 0.088 v2 0.036 pp; [489.7s, elapsed 0.22 h, ETA 0.09 h]
+[21/28] satimage rp D=512 seed=0: MAE v1 0.088 v2 0.076 pp; [40.6s, elapsed 0.22 h, ETA 0.07 h]
+[22/28] satimage nonlinear D=512 seed=0: MAE v1 0.107 v2 0.066 pp; [38.1s, elapsed 0.23 h, ETA 0.06 h]
+[23/28] fmnist rp D=2048 seed=0: MAE v1 0.069 v2 0.045 pp; [669.0s, elapsed 0.23 h, ETA 0.05 h]
+[24/28] satimage rp D=2048 seed=0: MAE v1 0.104 v2 0.072 pp; [129.0s, elapsed 0.24 h, ETA 0.04 h]
+[25/28] letter nonlinear D=2048 seed=0: MAE v1 0.055 v2 0.028 pp; [466.8s, elapsed 0.24 h, ETA 0.03 h]
+[26/28] pendigits nonlinear D=2048 seed=0: MAE v1 0.016 v2 0.013 pp; [197.0s, elapsed 0.24 h, ETA 0.02 h]
+[27/28] satimage nonlinear D=2048 seed=0: MAE v1 0.072 v2 0.094 pp; [112.0s, elapsed 0.24 h, ETA 0.01 h]
+[28/28] fmnist nonlinear D=2048 seed=0: MAE v1 0.883 v2 0.063 pp; [638.8s, elapsed 0.25 h, ETA 0.00 h]
+done

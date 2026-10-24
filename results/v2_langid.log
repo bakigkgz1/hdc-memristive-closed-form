@@ -1,0 +1,43 @@
+[langid] 9 jobs, 0 done, running 9 on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_langid.jsonl
+[1/9] langid ngram D=512 seed=0 centre=False: best analog@1d 0.937 (dependable/fp/reram_cmo) [436.6s, elapsed 0.1 h, ETA 1.0 h]
+[2/9] langid ngram D=512 seed=1 centre=False: best analog@1d 0.935 (noisecal/fp/reram_cmo) [440.5s, elapsed 0.1 h, ETA 0.4 h]
+[3/9] langid ngram D=1024 seed=1 centre=False: best analog@1d 0.964 (dependable/4bit/reram_cmo) [723.2s, elapsed 0.2 h, ETA 0.4 h]
+[4/9] langid ngram D=1024 seed=2 centre=False: best analog@1d 0.965 (dependable/fp/reram_cmo) [726.2s, elapsed 0.2 h, ETA 0.3 h]
+[5/9] langid ngram D=1024 seed=0 centre=False: best analog@1d 0.964 (noisecal/fp/reram_cmo) [729.1s, elapsed 0.2 h, ETA 0.2 h]
+[6/9] langid ngram D=512 seed=2 centre=False: best analog@1d 0.936 (dependable/fp/reram_cmo) [322.5s, elapsed 0.2 h, ETA 0.1 h]
+[7/9] langid ngram D=2048 seed=1 centre=False: best analog@1d 0.979 (dependable/fp/reram_cmo) [1087.2s, elapsed 0.3 h, ETA 0.1 h]
+[8/9] langid ngram D=2048 seed=0 centre=False: best analog@1d 0.980 (largemargin/fp/reram_cmo) [1094.4s, elapsed 0.3 h, ETA 0.0 h]
+[9/9] langid ngram D=2048 seed=2 centre=False: best analog@1d 0.979 (largemargin/fp/reram_cmo) [1102.4s, elapsed 0.3 h, ETA 0.0 h]
+[predict langid] 9 jobs, 0 done, running 9 on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_langid_pred.jsonl
+[1/9] langid ngram D=512 seed=0: 54 records, models reproduced 54/54 [206.0s, elapsed 0.1 h, ETA 0.5 h]
+[2/9] langid ngram D=512 seed=1: 54 records, models reproduced 54/54 [206.7s, elapsed 0.1 h, ETA 0.2 h]
+[3/9] langid ngram D=1024 seed=0: 54 records, models reproduced 54/54 [275.6s, elapsed 0.1 h, ETA 0.2 h]
+[4/9] langid ngram D=1024 seed=1: 54 records, models reproduced 54/54 [275.9s, elapsed 0.1 h, ETA 0.1 h]
+[5/9] langid ngram D=1024 seed=2: 54 records, models reproduced 54/54 [278.6s, elapsed 0.1 h, ETA 0.1 h]
+[6/9] langid ngram D=512 seed=2: 54 records, models reproduced 54/54 [147.2s, elapsed 0.1 h, ETA 0.0 h]
+[7/9] langid ngram D=2048 seed=1: 54 records, models reproduced 54/54 [383.1s, elapsed 0.1 h, ETA 0.0 h]
+[8/9] langid ngram D=2048 seed=2: 54 records, models reproduced 54/54 [388.5s, elapsed 0.1 h, ETA 0.0 h]
+[9/9] langid ngram D=2048 seed=0: 54 records, models reproduced 54/54 [388.9s, elapsed 0.1 h, ETA 0.0 h]
+done; records whose digital accuracy did not reproduce: 0
+[analytic langid] 9 jobs, 0 done, running 9 on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_langid_analytic.jsonl
+[1/9] langid ngram D=512 seed=0: 54 records, models reproduced 54/54 [141.0s, elapsed 0.0 h, ETA 0.3 h]
+[2/9] langid ngram D=512 seed=1: 54 records, models reproduced 54/54 [141.7s, elapsed 0.0 h, ETA 0.1 h]
+[3/9] langid ngram D=1024 seed=1: 54 records, models reproduced 54/54 [197.0s, elapsed 0.1 h, ETA 0.1 h]
+[4/9] langid ngram D=1024 seed=0: 54 records, models reproduced 54/54 [197.1s, elapsed 0.1 h, ETA 0.1 h]
+[5/9] langid ngram D=1024 seed=2: 54 records, models reproduced 54/54 [197.5s, elapsed 0.1 h, ETA 0.0 h]
+[6/9] langid ngram D=512 seed=2: 54 records, models reproduced 54/54 [101.6s, elapsed 0.1 h, ETA 0.0 h]
+[7/9] langid ngram D=2048 seed=1: 54 records, models reproduced 54/54 [288.3s, elapsed 0.1 h, ETA 0.0 h]
+[8/9] langid ngram D=2048 seed=2: 54 records, models reproduced 54/54 [296.1s, elapsed 0.1 h, ETA 0.0 h]
+[9/9] langid ngram D=2048 seed=0: 54 records, models reproduced 54/54 [296.1s, elapsed 0.1 h, ETA 0.0 h]
+done; records whose digital accuracy did not reproduce: 0
+[analytic2 langid] 9 jobs, 0 done, running 9 on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v2_langid_analytic2.jsonl
+[1/9] langid ngram D=512 seed=0: 54 records, models reproduced 54/54 [196.9s, elapsed 0.1 h, ETA 0.4 h]
+[2/9] langid ngram D=512 seed=1: 54 records, models reproduced 54/54 [197.1s, elapsed 0.1 h, ETA 0.2 h]
+[3/9] langid ngram D=1024 seed=1: 54 records, models reproduced 54/54 [337.3s, elapsed 0.1 h, ETA 0.2 h]
+[4/9] langid ngram D=1024 seed=0: 54 records, models reproduced 54/54 [337.9s, elapsed 0.1 h, ETA 0.1 h]
+[5/9] langid ngram D=1024 seed=2: 54 records, models reproduced 54/54 [340.2s, elapsed 0.1 h, ETA 0.1 h]
+[6/9] langid ngram D=512 seed=2: 54 records, models reproduced 54/54 [160.5s, elapsed 0.1 h, ETA 0.0 h]
+[7/9] langid ngram D=2048 seed=2: 54 records, models reproduced 54/54 [538.9s, elapsed 0.1 h, ETA 0.0 h]
+[8/9] langid ngram D=2048 seed=0: 54 records, models reproduced 54/54 [542.7s, elapsed 0.2 h, ETA 0.0 h]
+[9/9] langid ngram D=2048 seed=1: 54 records, models reproduced 54/54 [544.6s, elapsed 0.2 h, ETA 0.0 h]
+done; records whose digital accuracy did not reproduce: 0

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Closed-form accuracy prediction for hyperdimensional classifiers on memristive crossbars (code and data)"
+authors:
+  - family-names: "Gökgöz"
+    given-names: "Baki"
+    affiliation: "Gümüşhane University"
+    orcid: "https://orcid.org/0000-0001-8166-6282"
+license: MIT
+repository-code: "https://github.com/bakigkgz1/hdc-memristive-closed-form"

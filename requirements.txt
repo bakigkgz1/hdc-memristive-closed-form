@@ -1,0 +1,9 @@
+aihwkit==1.1.0
+torch==2.10.0
+torchvision==0.25.0
+scikit-learn
+scipy
+pandas<3
+matplotlib
+# CrossSim 3.2.1 (pinned commit)
+CrossSim @ git+https://github.com/sandialabs/cross-sim.git@b1f4755188ea7b38a71f61075cff7045ab6b589f

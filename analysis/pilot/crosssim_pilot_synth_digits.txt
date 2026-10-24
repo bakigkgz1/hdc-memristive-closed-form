@@ -1,0 +1,128 @@
+synth  nonlinear   512 single     fp     pcm_joshi ideal      dig=0.612 sim=[0.592] pred=[0.595] clip=[0.0] 0.2s
+synth  nonlinear   512 single     fp     pcm_joshi realistic  dig=0.612 sim=[0.591] pred=[0.594] clip=[np.float64(0.001)] 0.1s
+synth  nonlinear   512 single     fp     rram_wan  ideal      dig=0.612 sim=[0.524] pred=[0.53] clip=[0.0] 0.2s
+synth  nonlinear   512 single     fp     rram_wan  realistic  dig=0.612 sim=[0.526] pred=[0.529] clip=[np.float64(0.0014)] 0.1s
+synth  nonlinear   512 single     fp     rram_milo ideal      dig=0.612 sim=[0.598] pred=[0.599] clip=[0.0] 0.1s
+synth  nonlinear   512 single     fp     rram_milo realistic  dig=0.612 sim=[0.596] pred=[0.596] clip=[np.float64(0.0011)] 0.1s
+synth  nonlinear   512 single     fp     sonos     ideal      dig=0.612 sim=[0.613 0.612 0.612] pred=[0.612, 0.612, 0.612] clip=[0.0, 0.0, 0.0] 0.4s
+synth  nonlinear   512 single     fp     sonos     realistic  dig=0.612 sim=[0.611 0.611 0.611] pred=[0.609, 0.611, 0.611] clip=[np.float64(0.0011), np.float64(0.0011), np.float64(0.0011)] 0.3s
+synth  nonlinear   512 single     binary pcm_joshi ideal      dig=0.344 sim=[0.339] pred=[0.342] clip=[0.0] 0.1s
+synth  nonlinear   512 single     binary pcm_joshi realistic  dig=0.344 sim=[0.341] pred=[0.343] clip=[np.float64(0.0008)] 0.1s
+synth  nonlinear   512 single     binary rram_wan  ideal      dig=0.344 sim=[0.337] pred=[0.34] clip=[0.0] 0.1s
+synth  nonlinear   512 single     binary rram_wan  realistic  dig=0.344 sim=[0.339] pred=[0.341] clip=[np.float64(0.0009)] 0.1s
+synth  nonlinear   512 single     binary rram_milo ideal      dig=0.344 sim=[0.341] pred=[0.342] clip=[0.0] 0.1s
+synth  nonlinear   512 single     binary rram_milo realistic  dig=0.344 sim=[0.342] pred=[0.343] clip=[np.float64(0.0009)] 0.1s
+synth  nonlinear   512 single     binary sonos     ideal      dig=0.344 sim=[0.342 0.342 0.342] pred=[0.342, 0.342, 0.342] clip=[0.0, 0.0, 0.0] 0.3s
+synth  nonlinear   512 single     binary sonos     realistic  dig=0.344 sim=[0.345 0.345 0.345] pred=[0.343, 0.345, 0.345] clip=[np.float64(0.0009), np.float64(0.0007), np.float64(0.0007)] 0.3s
+synth  nonlinear   512 largemarginfp     pcm_joshi ideal      dig=0.593 sim=[0.589] pred=[0.592] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginfp     pcm_joshi realistic  dig=0.593 sim=[0.589] pred=[0.592] clip=[np.float64(0.0009)] 0.1s
+synth  nonlinear   512 largemarginfp     rram_wan  ideal      dig=0.593 sim=[0.552] pred=[0.551] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginfp     rram_wan  realistic  dig=0.593 sim=[0.552] pred=[0.551] clip=[np.float64(0.0012)] 0.1s
+synth  nonlinear   512 largemarginfp     rram_milo ideal      dig=0.593 sim=[0.587] pred=[0.588] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginfp     rram_milo realistic  dig=0.593 sim=[0.587] pred=[0.588] clip=[np.float64(0.0009)] 0.1s
+synth  nonlinear   512 largemarginfp     sonos     ideal      dig=0.593 sim=[0.594 0.593 0.593] pred=[0.594, 0.593, 0.593] clip=[0.0, 0.0, 0.0] 0.3s
+synth  nonlinear   512 largemarginfp     sonos     realistic  dig=0.593 sim=[0.594 0.593 0.593] pred=[0.594, 0.593, 0.593] clip=[np.float64(0.0009), np.float64(0.0009), np.float64(0.0009)] 0.3s
+synth  nonlinear   512 largemarginbinary pcm_joshi ideal      dig=0.424 sim=[0.421] pred=[0.422] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginbinary pcm_joshi realistic  dig=0.424 sim=[0.421] pred=[0.422] clip=[np.float64(0.0011)] 0.1s
+synth  nonlinear   512 largemarginbinary rram_wan  ideal      dig=0.424 sim=[0.419] pred=[0.422] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginbinary rram_wan  realistic  dig=0.424 sim=[0.419] pred=[0.422] clip=[np.float64(0.0011)] 0.1s
+synth  nonlinear   512 largemarginbinary rram_milo ideal      dig=0.424 sim=[0.422] pred=[0.423] clip=[0.0] 0.1s
+synth  nonlinear   512 largemarginbinary rram_milo realistic  dig=0.424 sim=[0.423] pred=[0.423] clip=[np.float64(0.0011)] 0.1s
+synth  nonlinear   512 largemarginbinary sonos     ideal      dig=0.424 sim=[0.422 0.424 0.424] pred=[0.423, 0.423, 0.423] clip=[0.0, 0.0, 0.0] 0.3s
+synth  nonlinear   512 largemarginbinary sonos     realistic  dig=0.424 sim=[0.423 0.424 0.424] pred=[0.423, 0.424, 0.424] clip=[np.float64(0.0011), np.float64(0.0011), np.float64(0.0011)] 0.3s
+synth  rp         2048 single     fp     pcm_joshi ideal      dig=0.852 sim=[0.853] pred=[0.853] clip=[0.0] 0.4s
+synth  rp         2048 single     fp     pcm_joshi realistic  dig=0.852 sim=[0.853] pred=[0.853] clip=[np.float64(0.0008)] 0.4s
+synth  rp         2048 single     fp     rram_wan  ideal      dig=0.852 sim=[0.853] pred=[0.852] clip=[0.0] 0.4s
+synth  rp         2048 single     fp     rram_wan  realistic  dig=0.852 sim=[0.852] pred=[0.852] clip=[np.float64(0.0009)] 0.5s
+synth  rp         2048 single     fp     rram_milo ideal      dig=0.852 sim=[0.852] pred=[0.853] clip=[0.0] 0.4s
+synth  rp         2048 single     fp     rram_milo realistic  dig=0.852 sim=[0.853] pred=[0.853] clip=[np.float64(0.0009)] 0.4s
+synth  rp         2048 single     fp     sonos     ideal      dig=0.852 sim=[0.853 0.852 0.852] pred=[0.853, 0.852, 0.852] clip=[0.0, 0.0, 0.0] 1.3s
+synth  rp         2048 single     fp     sonos     realistic  dig=0.852 sim=[0.853 0.852 0.852] pred=[0.853, 0.852, 0.852] clip=[np.float64(0.0009), np.float64(0.0009), np.float64(0.0009)] 1.3s
+synth  rp         2048 single     binary pcm_joshi ideal      dig=0.836 sim=[0.836] pred=[0.836] clip=[0.0] 0.3s
+synth  rp         2048 single     binary pcm_joshi realistic  dig=0.836 sim=[0.836] pred=[0.836] clip=[np.float64(0.0009)] 0.4s
+synth  rp         2048 single     binary rram_wan  ideal      dig=0.836 sim=[0.836] pred=[0.836] clip=[0.0] 0.4s
+synth  rp         2048 single     binary rram_wan  realistic  dig=0.836 sim=[0.836] pred=[0.836] clip=[np.float64(0.0009)] 0.4s
+synth  rp         2048 single     binary rram_milo ideal      dig=0.836 sim=[0.836] pred=[0.836] clip=[0.0] 0.4s
+synth  rp         2048 single     binary rram_milo realistic  dig=0.836 sim=[0.836] pred=[0.836] clip=[np.float64(0.0009)] 0.4s
+synth  rp         2048 single     binary sonos     ideal      dig=0.836 sim=[0.836 0.836 0.836] pred=[0.836, 0.836, 0.836] clip=[0.0, 0.0, 0.0] 1.1s
+synth  rp         2048 single     binary sonos     realistic  dig=0.836 sim=[0.836 0.837 0.837] pred=[0.836, 0.837, 0.837] clip=[np.float64(0.001), np.float64(0.0009), np.float64(0.0009)] 1.3s
+synth  rp         2048 largemarginfp     pcm_joshi ideal      dig=0.925 sim=[0.923] pred=[0.924] clip=[0.0] 0.4s
+synth  rp         2048 largemarginfp     pcm_joshi realistic  dig=0.925 sim=[0.923] pred=[0.924] clip=[np.float64(0.0009)] 0.5s
+synth  rp         2048 largemarginfp     rram_wan  ideal      dig=0.925 sim=[0.917] pred=[0.918] clip=[0.0] 0.4s
+synth  rp         2048 largemarginfp     rram_wan  realistic  dig=0.925 sim=[0.917] pred=[0.918] clip=[np.float64(0.0011)] 0.4s
+synth  rp         2048 largemarginfp     rram_milo ideal      dig=0.925 sim=[0.922] pred=[0.923] clip=[0.0] 0.4s
+synth  rp         2048 largemarginfp     rram_milo realistic  dig=0.925 sim=[0.922] pred=[0.923] clip=[np.float64(0.001)] 0.4s
+synth  rp         2048 largemarginfp     sonos     ideal      dig=0.925 sim=[0.924 0.925 0.925] pred=[0.925, 0.925, 0.925] clip=[0.0, 0.0, 0.0] 1.2s
+synth  rp         2048 largemarginfp     sonos     realistic  dig=0.925 sim=[0.924 0.925 0.925] pred=[0.925, 0.925, 0.925] clip=[np.float64(0.0009), np.float64(0.0009), np.float64(0.0009)] 1.4s
+synth  rp         2048 largemarginbinary pcm_joshi ideal      dig=0.900 sim=[0.9] pred=[0.9] clip=[0.0] 0.4s
+synth  rp         2048 largemarginbinary pcm_joshi realistic  dig=0.900 sim=[0.9] pred=[0.9] clip=[np.float64(0.0008)] 0.4s
+synth  rp         2048 largemarginbinary rram_wan  ideal      dig=0.900 sim=[0.899] pred=[0.9] clip=[0.0] 0.4s
+synth  rp         2048 largemarginbinary rram_wan  realistic  dig=0.900 sim=[0.899] pred=[0.9] clip=[np.float64(0.0008)] 0.5s
+synth  rp         2048 largemarginbinary rram_milo ideal      dig=0.900 sim=[0.901] pred=[0.9] clip=[0.0] 0.4s
+synth  rp         2048 largemarginbinary rram_milo realistic  dig=0.900 sim=[0.9] pred=[0.9] clip=[np.float64(0.0008)] 0.4s
+synth  rp         2048 largemarginbinary sonos     ideal      dig=0.900 sim=[0.901 0.9   0.9  ] pred=[0.9, 0.9, 0.9] clip=[0.0, 0.0, 0.0] 1.3s
+synth  rp         2048 largemarginbinary sonos     realistic  dig=0.900 sim=[0.901 0.901 0.901] pred=[0.9, 0.901, 0.901] clip=[np.float64(0.0009), np.float64(0.0008), np.float64(0.0008)] 1.2s
+digits nonlinear   512 single     fp     pcm_joshi ideal      dig=0.875 sim=[0.881] pred=[0.878] clip=[0.0] 0.0s
+digits nonlinear   512 single     fp     pcm_joshi realistic  dig=0.875 sim=[0.883] pred=[0.88] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 single     fp     rram_wan  ideal      dig=0.875 sim=[0.875] pred=[0.87] clip=[0.0] 0.0s
+digits nonlinear   512 single     fp     rram_wan  realistic  dig=0.875 sim=[0.874] pred=[0.871] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 single     fp     rram_milo ideal      dig=0.875 sim=[0.879] pred=[0.878] clip=[0.0] 0.0s
+digits nonlinear   512 single     fp     rram_milo realistic  dig=0.875 sim=[0.879] pred=[0.879] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 single     fp     sonos     ideal      dig=0.875 sim=[0.875 0.875 0.875] pred=[0.876, 0.875, 0.875] clip=[0.0, 0.0, 0.0] 0.1s
+digits nonlinear   512 single     fp     sonos     realistic  dig=0.875 sim=[0.881 0.878 0.878] pred=[0.88, 0.878, 0.878] clip=[np.float64(0.0003), np.float64(0.0003), np.float64(0.0003)] 0.1s
+digits nonlinear   512 single     binary pcm_joshi ideal      dig=0.806 sim=[0.801] pred=[0.802] clip=[0.0] 0.0s
+digits nonlinear   512 single     binary pcm_joshi realistic  dig=0.806 sim=[0.802] pred=[0.803] clip=[np.float64(0.0009)] 0.0s
+digits nonlinear   512 single     binary rram_wan  ideal      dig=0.806 sim=[0.799] pred=[0.8] clip=[0.0] 0.0s
+digits nonlinear   512 single     binary rram_wan  realistic  dig=0.806 sim=[0.799] pred=[0.8] clip=[np.float64(0.0009)] 0.0s
+digits nonlinear   512 single     binary rram_milo ideal      dig=0.806 sim=[0.801] pred=[0.802] clip=[0.0] 0.0s
+digits nonlinear   512 single     binary rram_milo realistic  dig=0.806 sim=[0.805] pred=[0.806] clip=[np.float64(0.0009)] 0.0s
+digits nonlinear   512 single     binary sonos     ideal      dig=0.806 sim=[0.801 0.8   0.8  ] pred=[0.803, 0.805, 0.805] clip=[0.0, 0.0, 0.0] 0.1s
+digits nonlinear   512 single     binary sonos     realistic  dig=0.806 sim=[0.805 0.806 0.806] pred=[0.807, 0.806, 0.806] clip=[np.float64(0.001), np.float64(0.0009), np.float64(0.0009)] 0.1s
+digits nonlinear   512 largemarginfp     pcm_joshi ideal      dig=0.928 sim=[0.928] pred=[0.925] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginfp     pcm_joshi realistic  dig=0.928 sim=[0.928] pred=[0.924] clip=[np.float64(0.0008)] 0.0s
+digits nonlinear   512 largemarginfp     rram_wan  ideal      dig=0.928 sim=[0.917] pred=[0.913] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginfp     rram_wan  realistic  dig=0.928 sim=[0.916] pred=[0.912] clip=[np.float64(0.0009)] 0.0s
+digits nonlinear   512 largemarginfp     rram_milo ideal      dig=0.928 sim=[0.928] pred=[0.923] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginfp     rram_milo realistic  dig=0.928 sim=[0.926] pred=[0.923] clip=[np.float64(0.0008)] 0.0s
+digits nonlinear   512 largemarginfp     sonos     ideal      dig=0.928 sim=[0.924 0.928 0.928] pred=[0.926, 0.928, 0.928] clip=[0.0, 0.0, 0.0] 0.1s
+digits nonlinear   512 largemarginfp     sonos     realistic  dig=0.928 sim=[0.924 0.928 0.928] pred=[0.926, 0.928, 0.928] clip=[np.float64(0.0008), np.float64(0.0008), np.float64(0.0008)] 0.1s
+digits nonlinear   512 largemarginbinary pcm_joshi ideal      dig=0.878 sim=[0.871] pred=[0.875] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginbinary pcm_joshi realistic  dig=0.878 sim=[0.872] pred=[0.876] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 largemarginbinary rram_wan  ideal      dig=0.878 sim=[0.871] pred=[0.874] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginbinary rram_wan  realistic  dig=0.878 sim=[0.869] pred=[0.874] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 largemarginbinary rram_milo ideal      dig=0.878 sim=[0.873] pred=[0.876] clip=[0.0] 0.0s
+digits nonlinear   512 largemarginbinary rram_milo realistic  dig=0.878 sim=[0.874] pred=[0.876] clip=[np.float64(0.0003)] 0.0s
+digits nonlinear   512 largemarginbinary sonos     ideal      dig=0.878 sim=[0.876 0.878 0.878] pred=[0.876, 0.879, 0.879] clip=[0.0, 0.0, 0.0] 0.1s
+digits nonlinear   512 largemarginbinary sonos     realistic  dig=0.878 sim=[0.876 0.878 0.878] pred=[0.878, 0.878, 0.878] clip=[np.float64(0.0003), np.float64(0.0003), np.float64(0.0003)] 0.1s
+digits rp         2048 single     fp     pcm_joshi ideal      dig=0.892 sim=[0.891] pred=[0.891] clip=[0.0] 0.1s
+digits rp         2048 single     fp     pcm_joshi realistic  dig=0.892 sim=[0.891] pred=[0.891] clip=[np.float64(0.0003)] 0.1s
+digits rp         2048 single     fp     rram_wan  ideal      dig=0.892 sim=[0.89] pred=[0.891] clip=[0.0] 0.1s
+digits rp         2048 single     fp     rram_wan  realistic  dig=0.892 sim=[0.891] pred=[0.891] clip=[np.float64(0.0004)] 0.1s
+digits rp         2048 single     fp     rram_milo ideal      dig=0.892 sim=[0.891] pred=[0.891] clip=[0.0] 0.1s
+digits rp         2048 single     fp     rram_milo realistic  dig=0.892 sim=[0.892] pred=[0.891] clip=[np.float64(0.0003)] 0.1s
+digits rp         2048 single     fp     sonos     ideal      dig=0.892 sim=[0.891 0.892 0.892] pred=[0.891, 0.892, 0.892] clip=[0.0, 0.0, 0.0] 0.2s
+digits rp         2048 single     fp     sonos     realistic  dig=0.892 sim=[0.892 0.892 0.892] pred=[0.891, 0.892, 0.892] clip=[np.float64(0.0003), np.float64(0.0003), np.float64(0.0003)] 0.2s
+digits rp         2048 single     binary pcm_joshi ideal      dig=0.892 sim=[0.892] pred=[0.892] clip=[0.0] 0.1s
+digits rp         2048 single     binary pcm_joshi realistic  dig=0.892 sim=[0.892] pred=[0.892] clip=[np.float64(0.0004)] 0.1s
+digits rp         2048 single     binary rram_wan  ideal      dig=0.892 sim=[0.892] pred=[0.892] clip=[0.0] 0.1s
+digits rp         2048 single     binary rram_wan  realistic  dig=0.892 sim=[0.893] pred=[0.892] clip=[np.float64(0.0004)] 0.1s
+digits rp         2048 single     binary rram_milo ideal      dig=0.892 sim=[0.892] pred=[0.892] clip=[0.0] 0.1s
+digits rp         2048 single     binary rram_milo realistic  dig=0.892 sim=[0.892] pred=[0.892] clip=[np.float64(0.0005)] 0.1s
+digits rp         2048 single     binary sonos     ideal      dig=0.892 sim=[0.892 0.892 0.892] pred=[0.892, 0.892, 0.892] clip=[0.0, 0.0, 0.0] 0.2s
+digits rp         2048 single     binary sonos     realistic  dig=0.892 sim=[0.892 0.892 0.892] pred=[0.892, 0.892, 0.892] clip=[np.float64(0.0005), np.float64(0.0005), np.float64(0.0005)] 0.2s
+digits rp         2048 largemarginfp     pcm_joshi ideal      dig=0.967 sim=[0.967] pred=[0.967] clip=[0.0] 0.1s
+digits rp         2048 largemarginfp     pcm_joshi realistic  dig=0.967 sim=[0.967] pred=[0.966] clip=[np.float64(0.0005)] 0.1s
+digits rp         2048 largemarginfp     rram_wan  ideal      dig=0.967 sim=[0.965] pred=[0.965] clip=[0.0] 0.1s
+digits rp         2048 largemarginfp     rram_wan  realistic  dig=0.967 sim=[0.965] pred=[0.965] clip=[np.float64(0.0007)] 0.1s
+digits rp         2048 largemarginfp     rram_milo ideal      dig=0.967 sim=[0.965] pred=[0.966] clip=[0.0] 0.1s
+digits rp         2048 largemarginfp     rram_milo realistic  dig=0.967 sim=[0.966] pred=[0.966] clip=[np.float64(0.0006)] 0.1s
+digits rp         2048 largemarginfp     sonos     ideal      dig=0.967 sim=[0.969 0.967 0.967] pred=[0.968, 0.967, 0.967] clip=[0.0, 0.0, 0.0] 0.2s
+digits rp         2048 largemarginfp     sonos     realistic  dig=0.967 sim=[0.969 0.967 0.967] pred=[0.968, 0.967, 0.967] clip=[np.float64(0.0006), np.float64(0.0006), np.float64(0.0006)] 0.2s
+digits rp         2048 largemarginbinary pcm_joshi ideal      dig=0.956 sim=[0.957] pred=[0.957] clip=[0.0] 0.1s
+digits rp         2048 largemarginbinary pcm_joshi realistic  dig=0.956 sim=[0.958] pred=[0.955] clip=[np.float64(0.0004)] 0.1s
+digits rp         2048 largemarginbinary rram_wan  ideal      dig=0.956 sim=[0.956] pred=[0.957] clip=[0.0] 0.1s
+digits rp         2048 largemarginbinary rram_wan  realistic  dig=0.956 sim=[0.956] pred=[0.956] clip=[np.float64(0.0005)] 0.1s
+digits rp         2048 largemarginbinary rram_milo ideal      dig=0.956 sim=[0.953] pred=[0.956] clip=[0.0] 0.1s
+digits rp         2048 largemarginbinary rram_milo realistic  dig=0.956 sim=[0.954] pred=[0.956] clip=[np.float64(0.0005)] 0.1s
+digits rp         2048 largemarginbinary sonos     ideal      dig=0.956 sim=[0.956 0.956 0.956] pred=[0.956, 0.956, 0.956] clip=[0.0, 0.0, 0.0] 0.2s
+digits rp         2048 largemarginbinary sonos     realistic  dig=0.956 sim=[0.956 0.956 0.956] pred=[0.956, 0.956, 0.956] clip=[np.float64(0.0005), np.float64(0.0004), np.float64(0.0004)] 0.2s

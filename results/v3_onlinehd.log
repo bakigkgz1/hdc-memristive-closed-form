@@ -1,0 +1,211 @@
+Traceback (most recent call last):
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 80, in wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 580, in _load_arff_response
+    X, y, frame, categories = _open_url_and_load_gzip_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 568, in _open_url_and_load_gzip_file
+    return load_arff_from_gzip_file(gzip_file, **arff_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 533, in load_arff_from_gzip_file
+    return _pandas_arff_parser(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 447, in _pandas_arff_parser
+    frame[col] = frame[col].cat.rename_categories(strip_single_quotes)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/accessor.py", line 128, in f
+    return self._delegate_method(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 3253, in _delegate_method
+    res = method(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 1431, in rename_categories
+    new_categories = [new_categories(item) for item in self.categories]
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 435, in strip_single_quotes
+    match = re.search(single_quote_pattern, input_string)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_onlinehd/sweep_revision.py", line 318, in <module>
+    main()
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_onlinehd/sweep_revision.py", line 285, in main
+    load_dataset(d, a.data_home)
+  File "/content/drive/MyDrive/hdc_memristive/code_rev_onlinehd/hdc.py", line 118, in load_dataset
+    X, y = fetch_openml(oname, version=ver, return_X_y=True, as_frame=False,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 1161, in fetch_openml
+    bunch = _download_data_to_bunch(
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 715, in _download_data_to_bunch
+    X, y, frame, categories = _retry_with_clean_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 100, in wrapper
+    return f(*args, **kw)
+           ^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 580, in _load_arff_response
+    X, y, frame, categories = _open_url_and_load_gzip_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_openml.py", line 568, in _open_url_and_load_gzip_file
+    return load_arff_from_gzip_file(gzip_file, **arff_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 533, in load_arff_from_gzip_file
+    return _pandas_arff_parser(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 447, in _pandas_arff_parser
+    frame[col] = frame[col].cat.rename_categories(strip_single_quotes)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/accessor.py", line 128, in f
+    return self._delegate_method(name, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 3253, in _delegate_method
+    res = method(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/pandas/core/arrays/categorical.py", line 1431, in rename_categories
+    new_categories = [new_categories(item) for item in self.categories]
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "/content/hdc_env/lib/python3.12/site-packages/sklearn/datasets/_arff_parser.py", line 435, in strip_single_quotes
+    match = re.search(single_quote_pattern, input_string)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/re/__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'int'
+[onlinehd] 126 jobs to run (0 done) on 8 workers -> /content/drive/MyDrive/hdc_memristive/results/v3_onlinehd.jsonl
+[1/126] isolet rp D=512 seed=0: [21.9s, elapsed 0.01 h, ETA 0.78 h]
+[2/126] isolet rp D=512 seed=1: [22.6s, elapsed 0.01 h, ETA 0.40 h]
+[3/126] isolet rp D=512 seed=2: [19.8s, elapsed 0.01 h, ETA 0.48 h]
+[4/126] isolet rp D=2048 seed=0: [45.7s, elapsed 0.01 h, ETA 0.39 h]
+[5/126] isolet rp D=2048 seed=2: [45.9s, elapsed 0.01 h, ETA 0.31 h]
+[6/126] isolet rp D=2048 seed=1: [47.3s, elapsed 0.01 h, ETA 0.27 h]
+[7/126] isolet nonlinear D=2048 seed=0: [45.9s, elapsed 0.03 h, ETA 0.44 h]
+[8/126] isolet nonlinear D=2048 seed=1: [45.0s, elapsed 0.03 h, ETA 0.38 h]
+[9/126] isolet nonlinear D=512 seed=0: [21.6s, elapsed 0.03 h, ETA 0.41 h]
+[10/126] isolet nonlinear D=512 seed=1: [20.3s, elapsed 0.04 h, ETA 0.43 h]
+[11/126] isolet nonlinear D=2048 seed=2: [43.9s, elapsed 0.04 h, ETA 0.40 h]
+[12/126] isolet nonlinear D=512 seed=2: [20.7s, elapsed 0.04 h, ETA 0.41 h]
+[13/126] isolet rp D=8192 seed=1: [157.5s, elapsed 0.04 h, ETA 0.38 h]
+[14/126] isolet rp D=8192 seed=0: [159.8s, elapsed 0.04 h, ETA 0.36 h]
+[15/126] isolet rp D=8192 seed=2: [160.3s, elapsed 0.04 h, ETA 0.33 h]
+[16/126] isolet nonlinear D=8192 seed=0: [157.6s, elapsed 0.05 h, ETA 0.35 h]
+[17/126] ucihar rp D=2048 seed=1: [35.9s, elapsed 0.05 h, ETA 0.35 h]
+[18/126] ucihar rp D=2048 seed=0: [36.5s, elapsed 0.05 h, ETA 0.33 h]
+[19/126] isolet nonlinear D=8192 seed=1: [156.3s, elapsed 0.06 h, ETA 0.31 h]
+[20/126] isolet nonlinear D=8192 seed=2: [154.7s, elapsed 0.06 h, ETA 0.30 h]
+[21/126] ucihar rp D=512 seed=0: [15.4s, elapsed 0.06 h, ETA 0.29 h]
+[22/126] ucihar rp D=512 seed=1: [15.5s, elapsed 0.06 h, ETA 0.28 h]
+[23/126] ucihar rp D=512 seed=2: [15.7s, elapsed 0.06 h, ETA 0.27 h]
+[24/126] ucihar rp D=2048 seed=2: [36.1s, elapsed 0.06 h, ETA 0.26 h]
+[25/126] ucihar nonlinear D=2048 seed=0: [36.1s, elapsed 0.07 h, ETA 0.28 h]
+[26/126] ucihar nonlinear D=2048 seed=1: [36.0s, elapsed 0.07 h, ETA 0.27 h]
+[27/126] ucihar nonlinear D=512 seed=0: [15.9s, elapsed 0.07 h, ETA 0.27 h]
+[28/126] ucihar rp D=8192 seed=0: [134.1s, elapsed 0.08 h, ETA 0.26 h]
+[29/126] ucihar nonlinear D=512 seed=1: [16.2s, elapsed 0.08 h, ETA 0.26 h]
+[30/126] ucihar nonlinear D=2048 seed=2: [35.7s, elapsed 0.08 h, ETA 0.25 h]
+[31/126] ucihar nonlinear D=512 seed=2: [15.9s, elapsed 0.08 h, ETA 0.24 h]
+[32/126] ucihar rp D=8192 seed=1: [136.6s, elapsed 0.08 h, ETA 0.24 h]
+[33/126] ucihar rp D=8192 seed=2: [135.0s, elapsed 0.08 h, ETA 0.23 h]
+[34/126] ucihar nonlinear D=8192 seed=0: [137.0s, elapsed 0.09 h, ETA 0.25 h]
+[35/126] ucihar nonlinear D=8192 seed=1: [137.5s, elapsed 0.10 h, ETA 0.25 h]
+[36/126] ucihar nonlinear D=8192 seed=2: [137.5s, elapsed 0.10 h, ETA 0.24 h]
+[37/126] mnist rp D=512 seed=0: [68.9s, elapsed 0.12 h, ETA 0.28 h]
+[38/126] mnist rp D=512 seed=1: [69.3s, elapsed 0.12 h, ETA 0.27 h]
+[39/126] mnist rp D=2048 seed=0: [149.9s, elapsed 0.12 h, ETA 0.27 h]
+[40/126] mnist rp D=2048 seed=1: [151.4s, elapsed 0.12 h, ETA 0.27 h]
+[41/126] mnist rp D=2048 seed=2: [147.2s, elapsed 0.13 h, ETA 0.28 h]
+[42/126] mnist rp D=512 seed=2: [68.3s, elapsed 0.14 h, ETA 0.27 h]
+[43/126] mnist nonlinear D=2048 seed=0: [167.8s, elapsed 0.18 h, ETA 0.35 h]
+[44/126] mnist nonlinear D=2048 seed=1: [170.4s, elapsed 0.18 h, ETA 0.34 h]
+[45/126] mnist nonlinear D=512 seed=0: [70.3s, elapsed 0.20 h, ETA 0.36 h]
+[46/126] mnist nonlinear D=512 seed=1: [70.2s, elapsed 0.22 h, ETA 0.39 h]
+[47/126] mnist nonlinear D=2048 seed=2: [152.8s, elapsed 0.22 h, ETA 0.38 h]
+[48/126] mnist rp D=8192 seed=1: [531.6s, elapsed 0.23 h, ETA 0.37 h]
+[49/126] mnist rp D=8192 seed=2: [545.9s, elapsed 0.23 h, ETA 0.36 h]
+[50/126] mnist rp D=8192 seed=0: [560.2s, elapsed 0.23 h, ETA 0.36 h]
+[51/126] mnist nonlinear D=512 seed=2: [68.7s, elapsed 0.24 h, ETA 0.35 h]
+[52/126] mnist nonlinear D=8192 seed=0: [563.4s, elapsed 0.27 h, ETA 0.39 h]
+[53/126] mnist nonlinear D=8192 seed=1: [546.6s, elapsed 0.27 h, ETA 0.38 h]
+[54/126] fmnist rp D=2048 seed=0: [153.6s, elapsed 0.28 h, ETA 0.37 h]
+[55/126] mnist nonlinear D=8192 seed=2: [573.9s, elapsed 0.28 h, ETA 0.37 h]
+[56/126] fmnist rp D=2048 seed=1: [152.2s, elapsed 0.28 h, ETA 0.35 h]
+[57/126] fmnist rp D=512 seed=0: [70.7s, elapsed 0.29 h, ETA 0.36 h]
+[58/126] fmnist rp D=512 seed=1: [71.4s, elapsed 0.30 h, ETA 0.35 h]
+[59/126] fmnist rp D=512 seed=2: [70.7s, elapsed 0.30 h, ETA 0.34 h]
+[60/126] fmnist rp D=2048 seed=2: [153.7s, elapsed 0.32 h, ETA 0.35 h]
+[61/126] fmnist nonlinear D=2048 seed=0: [156.8s, elapsed 0.35 h, ETA 0.37 h]
+[62/126] fmnist nonlinear D=2048 seed=1: [168.1s, elapsed 0.36 h, ETA 0.37 h]
+[63/126] fmnist rp D=8192 seed=1: [491.8s, elapsed 0.36 h, ETA 0.36 h]
+[64/126] fmnist rp D=8192 seed=0: [525.9s, elapsed 0.37 h, ETA 0.36 h]
+[65/126] fmnist nonlinear D=512 seed=0: [71.9s, elapsed 0.38 h, ETA 0.36 h]
+[66/126] fmnist nonlinear D=512 seed=1: [70.1s, elapsed 0.38 h, ETA 0.35 h]
+[67/126] fmnist rp D=8192 seed=2: [553.4s, elapsed 0.38 h, ETA 0.34 h]
+[68/126] fmnist nonlinear D=512 seed=2: [70.6s, elapsed 0.39 h, ETA 0.33 h]
+[69/126] fmnist nonlinear D=2048 seed=2: [166.4s, elapsed 0.39 h, ETA 0.32 h]
+[70/126] letter rp D=2048 seed=0: [93.5s, elapsed 0.42 h, ETA 0.33 h]
+[71/126] letter rp D=2048 seed=1: [92.3s, elapsed 0.42 h, ETA 0.32 h]
+[72/126] fmnist nonlinear D=8192 seed=0: [512.1s, elapsed 0.43 h, ETA 0.32 h]
+[73/126] fmnist nonlinear D=8192 seed=1: [489.6s, elapsed 0.43 h, ETA 0.31 h]
+[74/126] letter rp D=512 seed=0: [44.7s, elapsed 0.43 h, ETA 0.30 h]
+[75/126] letter rp D=512 seed=1: [44.9s, elapsed 0.44 h, ETA 0.30 h]
+[76/126] letter rp D=2048 seed=2: [90.0s, elapsed 0.44 h, ETA 0.29 h]
+[77/126] fmnist nonlinear D=8192 seed=2: [515.9s, elapsed 0.44 h, ETA 0.28 h]
+[78/126] letter rp D=512 seed=2: [44.4s, elapsed 0.44 h, ETA 0.27 h]
+[79/126] letter rp D=8192 seed=1: [274.1s, elapsed 0.46 h, ETA 0.27 h]
+[80/126] letter rp D=8192 seed=0: [290.3s, elapsed 0.46 h, ETA 0.27 h]
+[81/126] letter nonlinear D=2048 seed=0: [89.4s, elapsed 0.47 h, ETA 0.26 h]
+[82/126] letter nonlinear D=2048 seed=1: [88.6s, elapsed 0.47 h, ETA 0.25 h]
+[83/126] letter rp D=8192 seed=2: [318.0s, elapsed 0.47 h, ETA 0.25 h]
+[84/126] letter nonlinear D=512 seed=0: [43.7s, elapsed 0.48 h, ETA 0.24 h]
+[85/126] letter nonlinear D=512 seed=1: [44.6s, elapsed 0.48 h, ETA 0.23 h]
+[86/126] letter nonlinear D=512 seed=2: [44.2s, elapsed 0.48 h, ETA 0.22 h]
+[87/126] letter nonlinear D=2048 seed=2: [87.3s, elapsed 0.48 h, ETA 0.22 h]
+[88/126] pendigits rp D=2048 seed=0: [40.6s, elapsed 0.49 h, ETA 0.21 h]
+[89/126] pendigits rp D=2048 seed=1: [41.0s, elapsed 0.50 h, ETA 0.21 h]
+[90/126] pendigits rp D=512 seed=0: [16.7s, elapsed 0.50 h, ETA 0.20 h]
+[91/126] pendigits rp D=2048 seed=2: [40.2s, elapsed 0.50 h, ETA 0.19 h]
+[92/126] pendigits rp D=512 seed=1: [16.8s, elapsed 0.50 h, ETA 0.19 h]
+[93/126] pendigits rp D=512 seed=2: [16.4s, elapsed 0.51 h, ETA 0.18 h]
+[94/126] letter nonlinear D=8192 seed=0: [291.6s, elapsed 0.51 h, ETA 0.17 h]
+[95/126] pendigits rp D=8192 seed=2: [144.4s, elapsed 0.52 h, ETA 0.17 h]
+[96/126] pendigits rp D=8192 seed=0: [162.8s, elapsed 0.52 h, ETA 0.16 h]
+[97/126] letter nonlinear D=8192 seed=2: [282.0s, elapsed 0.52 h, ETA 0.16 h]
+[98/126] pendigits rp D=8192 seed=1: [162.0s, elapsed 0.52 h, ETA 0.15 h]
+[99/126] letter nonlinear D=8192 seed=1: [318.1s, elapsed 0.53 h, ETA 0.14 h]
+[100/126] pendigits nonlinear D=512 seed=0: [22.5s, elapsed 0.53 h, ETA 0.14 h]
+[101/126] pendigits nonlinear D=2048 seed=0: [50.6s, elapsed 0.53 h, ETA 0.13 h]
+[102/126] pendigits nonlinear D=512 seed=1: [21.6s, elapsed 0.53 h, ETA 0.13 h]
+[103/126] pendigits nonlinear D=512 seed=2: [21.4s, elapsed 0.53 h, ETA 0.12 h]
+[104/126] pendigits nonlinear D=2048 seed=1: [51.4s, elapsed 0.53 h, ETA 0.11 h]
+[105/126] pendigits nonlinear D=2048 seed=2: [51.6s, elapsed 0.53 h, ETA 0.11 h]
+[106/126] satimage rp D=2048 seed=0: [27.4s, elapsed 0.54 h, ETA 0.10 h]
+[107/126] satimage rp D=2048 seed=1: [27.7s, elapsed 0.54 h, ETA 0.10 h]
+[108/126] satimage rp D=512 seed=0: [11.0s, elapsed 0.54 h, ETA 0.09 h]
+[109/126] pendigits nonlinear D=8192 seed=0: [150.4s, elapsed 0.55 h, ETA 0.09 h]
+[110/126] satimage rp D=512 seed=1: [11.1s, elapsed 0.55 h, ETA 0.08 h]
+[111/126] satimage rp D=2048 seed=2: [29.4s, elapsed 0.55 h, ETA 0.07 h]
+[112/126] satimage rp D=512 seed=2: [10.7s, elapsed 0.55 h, ETA 0.07 h]
+[113/126] pendigits nonlinear D=8192 seed=1: [154.3s, elapsed 0.55 h, ETA 0.06 h]
+[114/126] satimage nonlinear D=2048 seed=0: [27.2s, elapsed 0.56 h, ETA 0.06 h]
+[115/126] satimage rp D=8192 seed=0: [96.0s, elapsed 0.56 h, ETA 0.05 h]
+[116/126] pendigits nonlinear D=8192 seed=2: [179.6s, elapsed 0.56 h, ETA 0.05 h]
+[117/126] satimage rp D=8192 seed=2: [106.8s, elapsed 0.56 h, ETA 0.04 h]
+[118/126] satimage rp D=8192 seed=1: [114.1s, elapsed 0.56 h, ETA 0.04 h]
+[119/126] satimage nonlinear D=512 seed=0: [10.6s, elapsed 0.56 h, ETA 0.03 h]
+[120/126] satimage nonlinear D=2048 seed=1: [26.5s, elapsed 0.56 h, ETA 0.03 h]
+[121/126] satimage nonlinear D=512 seed=1: [10.0s, elapsed 0.56 h, ETA 0.02 h]
+[122/126] satimage nonlinear D=2048 seed=2: [25.7s, elapsed 0.57 h, ETA 0.02 h]
+[123/126] satimage nonlinear D=512 seed=2: [8.3s, elapsed 0.57 h, ETA 0.01 h]
+[124/126] satimage nonlinear D=8192 seed=2: [76.8s, elapsed 0.57 h, ETA 0.01 h]
+[125/126] satimage nonlinear D=8192 seed=0: [89.8s, elapsed 0.57 h, ETA 0.00 h]
+[126/126] satimage nonlinear D=8192 seed=1: [92.5s, elapsed 0.57 h, ETA 0.00 h]
+done
